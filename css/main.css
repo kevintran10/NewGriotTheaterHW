@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h3 {
+    
+    margin-left: 5%;
+    font-size: 23px;
+}
+
+.list-items {
+   
+    margin-right: 20%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items > a {
+    
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+}
+
+.hero > img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50% 65%;
+}
+
+.hero > h1 {
+    position: absolute;
+    top: 20%;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+}
+
+.date {
+    margin-top: 7vh;
+    width: 100%;
+    border: 1px solid rgb(211, 210, 210);
+    background-color: rgb(243, 242, 242);
+}
+
+.marq {
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 3vh; 
+    align-items: center;
+}
+
+.marg > img {
+    width: 20%;
+    margin-left: 1%;
+}
+
+.marg > article {
+    margin-right: 20%;
+}
+
+.marq > article > p, .marq > article > h4 {
+    margin-bottom: 2vh;
+}
+
+.marg > button {
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+    background-color: rgb(240, 188, 90);
+}
+
+hr {
+    margin-top: 2vh;
+    border: rgb(112, 111, 111);
+}
